@@ -1,0 +1,65 @@
+<html >
+<head> <title>Registration Page</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+ <h2>Registration Form</h2>
+ <form action="#" method="POST">
+ <label for="name">Name</label>
+ <input type="text" id="name" name="name" required>
+ <label for="password">Password</label>
+ <input type="password" id="password" name="password" required>
+ <label for="email">E-mail</label>
+ <input type="email" id="email" name="email" required>
+ <label for="phone">Phone Number</label>
+ <input type="text" id="phone" name="phone" required>
+ <label>Sex</label>
+ <div class="radio-group">
+ <input type="radio" id="male" name="sex" value="male">
+ <label for="male">Male</label>
+ <input type="radio" id="female" name="sex" value="female">
+ <label for="female">Female</label>
+ <input type="radio" id="other" name="sex" value="other">
+ <label for="other">Other</label>
+ </div>
+ <label for="dob">Date of Birth</label>
+ <div>
+ <select id="day" name="day" required>
+ <option value="" disabled selected>Day</option>
+ <option value="1">1</option>
+ <option value="2">2</option>
+ <option value="3">3</option>
+ <!-- Continue this up to 31 -->
+ </select>
+ <select id="month" name="month" required>
+    option value="" disabled selected>Month</option>
+ <option value="1">January</option>
+ <option value="2">February</option>
+ <option value="3">March</option>
+ <!-- Continue for all months -->
+ </select>
+ <select id="year" name="year" required>
+ <option value="" disabled selected>Year</option>
+ <option value="2000">2000</option>
+ <option value="1999">1999</option>
+ <!-- Continue for other years -->
+ </select>
+ </div>
+ <label>Languages Known</label>
+ <div class="checkbox-group">
+ <input type="checkbox" id="english" name="languages" value="English">
+ <label for="english">English</label>
+ <input type="checkbox" id="telugu" name="languages" value="Telugu">
+ <label for="telugu">Telugu</label>
+ <input type="checkbox" id="hindi" name="languages" value="Hindi">
+ <label for="hindi">Hindi</label>
+ <input type="checkbox" id="tamil" name="languages" value="Tamil">
+ <label for="tamil">Tamil</label> </div>
+ <label for="address">Address</label>
+ <textarea id="address" name="address" rows="4" required></textarea>
+ <button type="submit" class="submit-btn">Register</button>
+ </form>
+</div>
+</body>
+</html>

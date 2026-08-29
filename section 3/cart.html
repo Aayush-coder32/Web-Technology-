@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Book Shop - Cart</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            padding: 18px;
+            background: #f3f3f3;
+            color: #111;
+            font-family: Georgia, "Times New Roman", serif;
+        }
+
+        .shop {
+            width: min(100%, 1100px);
+            margin: 0 auto;
+            background: white;
+            border: 1px solid #222;
+        }
+
+        .header {
+            display: flex;
+            align-items: center;
+            min-height: 112px;
+            border-bottom: 2px solid #c9a9a9;
+        }
+
+        .logo {
+            width: 220px;
+            height: 80px;
+            margin: 0 0 0 12px;
+            background: linear-gradient(135deg, #8e286f, #d24b9a);
+        }
+
+        .header-line {
+            align-self: stretch;
+            width: 5px;
+            margin-right: 20px;
+            background: #d55b63;
+        }
+
+        .header h1 {
+            flex: 1;
+            margin: 0;
+            color: #102d75;
+            font-size: clamp(30px, 5vw, 50px);
+            font-style: italic;
+            font-weight: normal;
+            text-align: center;
+        }
+
+        .nav {
+            display: flex;
+            justify-content: space-between;
+            gap: 16px;
+            padding: 11px 14px;
+            border-bottom: 2px solid #c9a9a9;
+        }
+
+        .nav a,
+        .categories a {
+            color: #6c4160;
+            text-decoration: underline;
+        }
+
+        .content {
+            display: flex;
+            min-height: 420px;
+        }
+
+        .categories {
+            width: 160px;
+            flex-shrink: 0;
+            padding: 23px 16px;
+            border-right: 3px solid #d55b63;
+            background: #fff;
+        }
+
+        .categories a {
+            display: block;
+            margin: 0 0 18px;
+        }
+
+        .cart-area {
+            flex: 1;
+            overflow-x: auto;
+            padding: 32px 20px;
+            background: #496d84;
+        }
+
+        .cart-table {
+            width: 100%;
+            min-width: 570px;
+            border-spacing: 30px 24px;
+            color: #111;
+            text-align: left;
+        }
+
+        .cart-table th {
+            font-weight: normal;
+        }
+
+        .cart-table td,
+        .cart-table th {
+            padding: 4px;
+        }
+
+        .cart-table .total td {
+            padding-top: 28px;
+        }
+
+        @media (max-width: 650px) {
+            body {
+                padding: 8px;
+            }
+
+            .header {
+                min-height: 85px;
+            }
+
+            .logo {
+                width: 85px;
+                height: 55px;
+                margin-right: 0;
+            }
+
+            .header-line {
+                width: 3px;
+                margin-right: 8px;
+            }
+
+            .header h1 {
+                font-size: 28px;
+            }
+
+            .nav {
+                flex-wrap: wrap;
+                justify-content: space-around;
+            }
+
+            .categories {
+                width: 105px;
+                padding-left: 10px;
+                padding-right: 8px;
+            }
+
+            .cart-area {
+                padding-left: 8px;
+                padding-right: 8px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="shop">
+        <header class="header">
+            <div class="logo" aria-label="Book shop logo"></div>
+            <div class="header-line" aria-hidden="true"></div>
+            <h1>ONLINE BOOK SHOP</h1>
+        </header>
+
+        <nav class="nav">
+            <a href="../section 1/Home.html">Home</a>
+            <a href="#">Login</a>
+            <a href="../section 2/entryform.html">Registration</a>
+            <a href="dtd.xml">Catalogue</a>
+            <a href="cart.html">Cart</a>
+        </nav>
+
+        <div class="content">
+            <aside class="categories">
+                <a href="#">CSE</a>
+                <a href="#">ECE</a>
+                <a href="#">EEE</a>
+                <a href="#">Civil</a>
+            </aside>
+
+            <main class="cart-area">
+                <table class="cart-table">
+                    <thead>
+                        <tr>
+                            <th>Book name</th>
+                            <th>price</th>
+                            <th>quantity</th>
+                            <th>amount</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>java2</td>
+                            <td>$35.5</td>
+                            <td>2</td>
+                            <td>$70</td>
+                        </tr>
+                        <tr>
+                            <td>XML bible</td>
+                            <td>$40.5</td>
+                            <td>1</td>
+                            <td>$40.5</td>
+                        </tr>
+                        <tr class="total">
+                            <td></td>
+                            <td></td>
+                            <td>Total amount</td>
+                            <td>130.5</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </main>
+        </div>
+    </div>
+</body>
+</html>
