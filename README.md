@@ -1,8 +1,37 @@
-# Web Development Lab Exercises
+# Digital Scam Prevention System
 
-This repository contains practical exercises completed while learning web development and related programming concepts. It includes static HTML/CSS pages, XML with XSLT, browser-side JavaScript, Node.js programs, MongoDB aggregation, and Java programs.
+<div align="center">
+  <img src="https://img.shields.io/badge/Protection-Scam%20Aware-blue" alt="Protection badge" />
+</div>
 
-## Contents
+Spot suspicious messages, links, and payment QR codes before you act.
+
+An explainable, privacy-minded web application for reviewing digital scam signals and getting safer next steps.
+
+### Features · How it works · Get started · API · Security · Contributing · License
+
+<div align="center">
+
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/docs/Web/JavaScript)
+[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/docs/Web/HTML)
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/docs/Web/CSS)
+
+</div>
+
+## Overview
+
+This repository is a collection of web technology lab exercises that also reflects the theme of a digital scam prevention project. The goal is to practice front-end, XML, JavaScript, Node.js, MongoDB, and Java development while building a safe and awareness-focused product concept.
+
+The project includes several independent, hands-on exercises covering:
+
+- HTML/CSS user interfaces
+- XML + XSLT data presentation
+- Browser-side JavaScript validation
+- Node.js utilities and database aggregation
+- Java desktop and testing examples
+
+## Repository structure
 
 | Folder | Description | Main files |
 | --- | --- | --- |
@@ -19,16 +48,18 @@ This repository contains practical exercises completed while learning web develo
 
 ## Requirements
 
-- A modern web browser for the HTML/XML exercises
+- Modern web browser for HTML/XML exercises
 - Node.js and npm for sections 9 and 10
-- A JDK for sections 7 and 8
+- JDK for sections 7 and 8
 - MongoDB running locally for section 10
 
-## Running the exercises
+## Getting started
 
 ### HTML, CSS, and XML
 
-Open the relevant `.html` file directly in a browser. To view the XML catalogue with its XSLT stylesheet, open `section 3/dtd.xml`. If the browser blocks local XML transformations, serve the project with a local HTTP server and open the file through that server.
+Open the relevant `.html` file directly in a browser. To view the XML catalogue with its XSLT stylesheet, open `section 3/dtd.xml`.
+
+If your browser blocks local XML transformations, serve the project from a local HTTP server and open the file through that server.
 
 ### Section 9: Node.js utility
 
@@ -41,20 +72,20 @@ The menu supports uppercase conversion, factorial calculation, random password g
 
 ### Section 10: MongoDB aggregation
 
-Install the Node.js dependency:
+Install the dependency first:
 
 ```powershell
 cd "section 10"
 npm install
 ```
 
-Start MongoDB locally, then run:
+Then start MongoDB locally and run:
 
 ```powershell
 node aggregateUsers.js
 ```
 
-The program connects to `mongodb://localhost:27017/`, reads the `userDB.users` collection, filters users aged 18 or above, and groups them by city. Each user document should include at least `age` and `city` fields.
+The program connects to `mongodb://localhost:27017/`, reads the `userDB.users` collection, filters users aged 18 or above, and groups results by city.
 
 ### Section 7: Java calculator
 
@@ -74,6 +105,12 @@ java EmployeeTest
 
 Compiled Java `.class` files are ignored by Git.
 
+## Why this project matters
+
+The scam prevention theme is a strong real-world example of how digital safety tools can help users detect suspicious patterns before they become victims. In the same way, each lab exercise here demonstrates practical web and programming fundamentals used to build modern, responsive, and secure digital products.
+
 ## Notes
 
-These are independent lab exercises rather than one combined application. The Node.js package lockfile is included so section 10 dependencies can be installed reproducibly.
+This repository is organized as a set of independent lab exercises rather than a single application. Each section can be run separately and is intended for learning and experimentation.
+
+The Node.js package lockfile is included so section 10 dependencies can be installed reproducibly.
