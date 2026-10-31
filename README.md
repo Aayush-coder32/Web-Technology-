@@ -1,23 +1,43 @@
-# Digital Scam Prevention System
+# Web Development
 
 <div align="center">
-  <img src="https://img.shields.io/badge/Protection-Scam%20Aware-blue" alt="Protection badge" />
+  <img src="https://img.shields.io/badge/Project-Web%20Development-blue" alt="Web Development badge" />
 </div>
 
-Spot suspicious messages, links, and payment QR codes before you act.
+A collection of web development projects, practical exercises, and programming implementations using modern web technologies.
 
-An explainable, privacy-minded web application for reviewing digital scam signals and getting safer next steps.
-
-### Features · How it works · Get started · API · Security · Contributing · License
+## Languages & Technologies
 
 <div align="center">
 
-[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/docs/Web/JavaScript)
-[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/docs/Web/HTML)
 [![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/docs/Web/CSS)
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/docs/Web/JavaScript)
+[![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)](https://www.java.com/)
 
 </div>
+
+## 📂 Files & Content
+
+| Language | Content |
+|---|---|
+| HTML | Web page structure, forms, tables and semantic elements |
+| CSS | Styling, layouts, animations and responsive designs |
+| JavaScript | DOM manipulation, events, functions and validation |
+| Java | Object-oriented programming, classes, methods and basic programs |
+
+## ✨ Features
+
+- Responsive web page development
+- Interactive user interfaces
+- HTML forms and tables
+- CSS styling and animations
+- JavaScript functionality
+- Java programming exercises
+
+## 🎯 Objective
+
+To develop practical web development skills and strengthen programming fundamentals through hands-on projects and exercises.
 
 ## Overview
 
