@@ -61,16 +61,22 @@ Open the relevant `.html` file directly in a browser. To view the XML catalogue 
 
 If your browser blocks local XML transformations, serve the project from a local HTTP server and open the file through that server.
 
-### Section 9: Node.js utility
+To view the XML catalogue with its XSLT stylesheet, open `section 3/dtd.xml`. If the browser blocks local XML transformations, serve the project with a local HTTP server and open the file through that server.
+
+### Section 9: Node.js Utility
 
 ```powershell
 cd "section 9"
 node utility.js
 ```
 
-The menu supports uppercase conversion, factorial calculation, random password generation, and exit.
+The menu supports:
+- Uppercase conversion
+- Factorial calculation
+- Random password generation
+- Exit
 
-### Section 10: MongoDB aggregation
+### Section 10: MongoDB Aggregation
 
 Install the dependency first:
 
@@ -85,9 +91,11 @@ Then start MongoDB locally and run:
 node aggregateUsers.js
 ```
 
-The program connects to `mongodb://localhost:27017/`, reads the `userDB.users` collection, filters users aged 18 or above, and groups results by city.
+The program connects to `mongodb://localhost:27017/`, reads the `userDB.users` collection, filters users aged 18 or above, and groups them by city.
 
-### Section 7: Java calculator
+Each user document should include at least `age` and `city` fields.
+
+### Section 7: Java Calculator
 
 ```powershell
 cd "section 7"
@@ -95,7 +103,7 @@ javac ApplicationProgram.java
 java ApplicationProgram
 ```
 
-### Section 8: Employee example
+### Section 8: Employee Example
 
 ```powershell
 cd "section 8"
@@ -114,3 +122,26 @@ The scam prevention theme is a strong real-world example of how digital safety t
 This repository is organized as a set of independent lab exercises rather than a single application. Each section can be run separately and is intended for learning and experimentation.
 
 The Node.js package lockfile is included so section 10 dependencies can be installed reproducibly.
+- Ensure MongoDB is running before executing section 10.
+
+---
+
+## Copyright & License
+
+Copyright © 2026 Aayush Sharma. All Rights Reserved.
+
+This repository and all its source code, files, programs, documentation, and other materials are the intellectual property of the copyright owner.
+
+No permission is granted to any individual or organization to:
+
+- Copy or reproduce this repository or its contents.
+- Use or modify the source code.
+- Redistribute or republish the code.
+- Use the project for commercial purposes.
+- Claim this work as their own.
+
+Any unauthorized use, reproduction, modification, or distribution without prior written permission from the copyright owner is prohibited.
+
+For permission or licensing inquiries, contact the copyright owner.
+
+**License:** Proprietary – All Rights Reserved.
